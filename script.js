@@ -117,3 +117,5 @@ const apiUrl = 'https://quoteapi.pythonanywhere.com/quotes/';
         .then(response => response.json())
         .then(data => console.log(data))
         .catch(error => console.error('Error:', error));
+
+        
