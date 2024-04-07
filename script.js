@@ -67,7 +67,7 @@ function renderMoviePosters(genreFilter) {
     
     // Filter movies based on genre and render posters
     movies.filter(function(movie) {
-        if (genreFilter === 'all' || movie.genre === genreFilter) {
+        if (genreFilter === 'All' || movie.genre === genreFilter) {
             // Append movie poster card
             $('#moviePosters').append(
                 '<div class="col-lg-3 col-md-4 col-sm-6 mb-4">' +
