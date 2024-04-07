@@ -114,7 +114,15 @@ $('#genreSelect').change(function() {
 });
 
 var getQuote = async () => {
-    const response = await fetch('/api/quotes');
-    const randomQuote = await response.json();
-    return randomQuote.Quotes[0].quote;
+    try {
+        const response = await fetch('/api/quotes');
+        const randomQuote = await response.json();
+        return randomQuote.Quotes[0].quote;
+    } catch (error) {
+        return "please run with nodejs as server .... "
+      console.error(error);
+      // Expected output: ReferenceError: nonExistentFunction is not defined
+      // (Note: the exact output may be browser-dependent)
+    }
+    
 }
