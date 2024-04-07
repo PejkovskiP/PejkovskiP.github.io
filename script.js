@@ -110,3 +110,5 @@ $('#genreSelect').change(function() {
     const selectGenre = $(this).val();
     renderMoviePosters(selectGenre);
 });
+
+const apiUrl = 'https://quoteapi.pythonanywhere.com/quotes/';
