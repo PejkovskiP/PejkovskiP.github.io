@@ -1,33 +1,26 @@
-Movieum
-Movieum is a web application that allows users to browse and explore a collection of movies across different genres. Users can filter movies by genre and view details of each movie including title, year, description, and a random quote associated with it.
+#Movieum
 
-Installation
+Movieum is a web application that allows users to explore a collection of movies across different genres. Users can filter movies by genre and view details of each movie including title, year, description, and a random quote associated with it.
+
+#Installation
 To run Movieum locally, follow these steps:
 
-Clone the repository:
-
-bash
-Copy code
+1. Clone the repository:
 git clone <repository-url>
-Navigate to the project directory:
 
-bash
-Copy code
+2. Navigate to the project directory:
 cd Movieum
-Install all required modules:
 
-bash
-Copy code
+3. Install all required modules:
 npm install
-Run the server:
 
-bash
-Copy code
+4. Run the server:
 node server.js
-Data Source
+
+#Data Source
 Movie data is sourced from quoteapi.pythonanywhere.com for random quotes associated with each movie.
 
-Usage
+#Usage
 Once the server is running, you can access the application in your web browser at http://localhost:3000. You can browse through different movies, filter them by genre, and view details including title, year, description, and a random quote associated with each movie.
 
 Enjoy exploring Movieum! 🍿🎬
