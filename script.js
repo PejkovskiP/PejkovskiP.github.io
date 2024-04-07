@@ -113,7 +113,7 @@ $('#genreSelect').change(function() {
 
 const apiUrl = 'https://quoteapi.pythonanywhere.com/quotes/';
 
-    fetch(apiUrl)
+    fetch(apiUrl, {mode: 'cors'})
         .then(response => response.json())
         .then(data => console.log(data))
         .catch(error => console.error('Error:', error));
