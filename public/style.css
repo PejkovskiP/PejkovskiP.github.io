@@ -1,0 +1,90 @@
+/* Reset CSS */
+html,
+body,
+ul,
+ol,
+p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    background: linear-gradient(to bottom, #2D3250, #4F5C91);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+/* End Reset CSS */
+
+h1,
+label,
+h5 {
+    font-family: fantasy;
+    letter-spacing: 1px;
+}
+
+/* Custom form select style */
+.form-select:focus {
+    border-color: #fff;
+    outline: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.title-bg {
+    background-color: #222533;
+}
+
+.custom-bg {
+    background-color: #242840;
+}
+
+.custom-w-10 {
+    width: 10%;
+}
+
+.custom-w-30 {
+    width: 30%;
+}
+
+.card {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.06);
+}
+
+.modal-content {
+    background-color: rgba(34, 37, 51, 0.9);
+    color: #fff;
+}
+
+.modal-header .btn-close {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        margin: 15rem auto;
+    }
+}
+
