@@ -102,7 +102,7 @@ $(document).on('click', '.movie-details', function() {
 
 // Render movies posters on page load
 $(document).ready(function() {
-    renderMoviePosters('all');
+    renderMoviePosters('All');
 });
 
 // Filter movies by genre
